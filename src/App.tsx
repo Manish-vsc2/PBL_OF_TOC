@@ -20,6 +20,7 @@ import { DfaTableSection } from './components/DfaTableSection';
 import { StringSimulator } from './components/StringSimulator';
 import { PdfExportModal } from './components/PdfExportModal';
 import { PwaInstallPrompt } from './components/PwaInstallPrompt';
+import { InstallAppButton } from './components/InstallAppModal';
 import { useTheme } from './components/ThemeContext';
 import {
   Sparkles,
@@ -248,6 +249,9 @@ export default function App() {
 
           {/* Action Buttons */}
           <div className="flex items-center gap-2">
+            {/* Install Desktop App Button */}
+            <InstallAppButton />
+
             {/* Dark / Light Toggle */}
             <button
               type="button"
