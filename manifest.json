@@ -1,10 +1,20 @@
 {
-  "name": "NFA State-Bound Analyzer & TOC Studio",
+  "name": "TOC Studio: NFA State-Bound Analyzer & Minimizer",
   "short_name": "TOC Studio",
   "description": "Interactive Theory of Computation PBL analyzer for NFA to DFA Subset Construction, Hopcroft Minimization, and State-Bound Analysis.",
-  "start_url": "/PBL_OF_TOC/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#0f172a",
-  "theme_color": "#2563eb"
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
 
