@@ -7,7 +7,7 @@
     <meta name="description" content="Interactive Theory of Computation PBL analyzer for NFA to DFA Subset Construction, Hopcroft Minimization, Thompson Regex Synthesis, and 2^Q State-Bound Analysis." />
     
     <!-- PWA & Mobile Web App Meta -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="./manifest.json" />
     <meta name="theme-color" content="#2563eb" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -21,11 +21,11 @@
   </head>
   <body class="antialiased selection:bg-blue-500 selection:text-white">
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="./src/main.tsx"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch((err) => {
+          navigator.serviceWorker.register('./sw.js').catch((err) => {
             console.log('SW registration note:', err);
           });
         });

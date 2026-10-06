@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './',
+    base: '/PBL_OF_TOC/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
