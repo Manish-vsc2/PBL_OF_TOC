@@ -206,6 +206,18 @@ export const InstallAppButton: React.FC<InstallAppProps> = ({
                     </p>
                   </div>
                 </div>
+                {/* Windows Desktop Shortcut Tip */}
+                <div className="p-3 bg-indigo-50/80 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-900/60 rounded-xl space-y-1.5 text-[11px]">
+                  <span className="font-bold text-indigo-900 dark:text-indigo-200 flex items-center gap-1.5">
+                    <ExternalLink className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
+                    Agar Desktop par icon nahi dikhe:
+                  </span>
+                  <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
+                    1. Chrome ke new tab me <code className="px-1.5 py-0.5 bg-white dark:bg-slate-800 rounded font-mono text-indigo-600 dark:text-indigo-400 border border-slate-200 dark:border-slate-700">chrome://apps</code> type karke Enter karein.
+                    <br />
+                    2. <strong>TOC Studio</strong> par Right-Click karein → <strong>"Create shortcuts..."</strong> → <strong>Desktop</strong> par tick lagayein → <strong>Create</strong> dabayein!
+                  </p>
+                </div>
               </div>
 
               {/* Mobile Device Instructions */}
